@@ -2,8 +2,8 @@
 	<view class="top">
 		<view class="bar">
 			<view class="tab-item" v-for="item in tabs" :key="item.name" :class="{ active: item.name === currentTab }"
-			@click="switchTab(item.name)">
-			{{ item.title }}
+				@click="switchTab(item.name)">
+				{{ item.title }}
 			</view>
 		</view>
 		<view v-if="currentTab==='my'">
@@ -29,6 +29,7 @@
 					},
 					{
 						name: 'music',
+						音乐馆组件
 						title: '音乐馆'
 					},
 					{
@@ -40,8 +41,8 @@
 				currentTab: 'music'
 			};
 		},
-		methods:{
-			switchTab(tabName){
+		methods: {
+			switchTab(tabName) {
 				this.currentTab = tabName;
 			}
 		}
