@@ -19547,6 +19547,1003 @@ function normalizeComponent (
 }
 
 
+/***/ }),
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */
+/*!******************************************************************************************!*\
+  !*** D:/项目/music-app/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 76));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 77));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 78));
+var _default = {
+  en: _en.default,
+  'zh-Hans': _zhHans.default,
+  'zh-Hant': _zhHant.default
+};
+exports.default = _default;
+
+/***/ }),
+/* 76 */
+/*!*****************************************************************************************!*\
+  !*** D:/项目/music-app/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
+  \*****************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-bar.placeholder\":\"Search enter content\"}");
+
+/***/ }),
+/* 77 */
+/*!**********************************************************************************************!*\
+  !*** D:/项目/music-app/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
+  \**********************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"取消\",\"uni-search-bar.placeholder\":\"请输入搜索内容\"}");
+
+/***/ }),
+/* 78 */
+/*!**********************************************************************************************!*\
+  !*** D:/项目/music-app/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
+  \**********************************************************************************************/
+/*! exports provided: uni-search-bar.cancel, uni-search-bar.placeholder, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"取消\",\"uni-search-bar.placeholder\":\"請輸入搜索內容\"}");
+
+/***/ }),
+/* 79 */,
+/* 80 */,
+/* 81 */,
+/* 82 */,
+/* 83 */,
+/* 84 */,
+/* 85 */,
+/* 86 */
+/*!***************************************************************************************!*\
+  !*** D:/项目/music-app/uni_modules/uni-icons/components/uni-icons/uniicons_file_vue.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.fontData = void 0;
+var fontData = [{
+  "font_class": "arrow-down",
+  "unicode": "\uE6BE"
+}, {
+  "font_class": "arrow-left",
+  "unicode": "\uE6BC"
+}, {
+  "font_class": "arrow-right",
+  "unicode": "\uE6BB"
+}, {
+  "font_class": "arrow-up",
+  "unicode": "\uE6BD"
+}, {
+  "font_class": "auth",
+  "unicode": "\uE6AB"
+}, {
+  "font_class": "auth-filled",
+  "unicode": "\uE6CC"
+}, {
+  "font_class": "back",
+  "unicode": "\uE6B9"
+}, {
+  "font_class": "bars",
+  "unicode": "\uE627"
+}, {
+  "font_class": "calendar",
+  "unicode": "\uE6A0"
+}, {
+  "font_class": "calendar-filled",
+  "unicode": "\uE6C0"
+}, {
+  "font_class": "camera",
+  "unicode": "\uE65A"
+}, {
+  "font_class": "camera-filled",
+  "unicode": "\uE658"
+}, {
+  "font_class": "cart",
+  "unicode": "\uE631"
+}, {
+  "font_class": "cart-filled",
+  "unicode": "\uE6D0"
+}, {
+  "font_class": "chat",
+  "unicode": "\uE65D"
+}, {
+  "font_class": "chat-filled",
+  "unicode": "\uE659"
+}, {
+  "font_class": "chatboxes",
+  "unicode": "\uE696"
+}, {
+  "font_class": "chatboxes-filled",
+  "unicode": "\uE692"
+}, {
+  "font_class": "chatbubble",
+  "unicode": "\uE697"
+}, {
+  "font_class": "chatbubble-filled",
+  "unicode": "\uE694"
+}, {
+  "font_class": "checkbox",
+  "unicode": "\uE62B"
+}, {
+  "font_class": "checkbox-filled",
+  "unicode": "\uE62C"
+}, {
+  "font_class": "checkmarkempty",
+  "unicode": "\uE65C"
+}, {
+  "font_class": "circle",
+  "unicode": "\uE65B"
+}, {
+  "font_class": "circle-filled",
+  "unicode": "\uE65E"
+}, {
+  "font_class": "clear",
+  "unicode": "\uE66D"
+}, {
+  "font_class": "close",
+  "unicode": "\uE673"
+}, {
+  "font_class": "closeempty",
+  "unicode": "\uE66C"
+}, {
+  "font_class": "cloud-download",
+  "unicode": "\uE647"
+}, {
+  "font_class": "cloud-download-filled",
+  "unicode": "\uE646"
+}, {
+  "font_class": "cloud-upload",
+  "unicode": "\uE645"
+}, {
+  "font_class": "cloud-upload-filled",
+  "unicode": "\uE648"
+}, {
+  "font_class": "color",
+  "unicode": "\uE6CF"
+}, {
+  "font_class": "color-filled",
+  "unicode": "\uE6C9"
+}, {
+  "font_class": "compose",
+  "unicode": "\uE67F"
+}, {
+  "font_class": "contact",
+  "unicode": "\uE693"
+}, {
+  "font_class": "contact-filled",
+  "unicode": "\uE695"
+}, {
+  "font_class": "down",
+  "unicode": "\uE6B8"
+}, {
+  "font_class": "bottom",
+  "unicode": "\uE6B8"
+}, {
+  "font_class": "download",
+  "unicode": "\uE68D"
+}, {
+  "font_class": "download-filled",
+  "unicode": "\uE681"
+}, {
+  "font_class": "email",
+  "unicode": "\uE69E"
+}, {
+  "font_class": "email-filled",
+  "unicode": "\uE69A"
+}, {
+  "font_class": "eye",
+  "unicode": "\uE651"
+}, {
+  "font_class": "eye-filled",
+  "unicode": "\uE66A"
+}, {
+  "font_class": "eye-slash",
+  "unicode": "\uE6B3"
+}, {
+  "font_class": "eye-slash-filled",
+  "unicode": "\uE6B4"
+}, {
+  "font_class": "fire",
+  "unicode": "\uE6A1"
+}, {
+  "font_class": "fire-filled",
+  "unicode": "\uE6C5"
+}, {
+  "font_class": "flag",
+  "unicode": "\uE65F"
+}, {
+  "font_class": "flag-filled",
+  "unicode": "\uE660"
+}, {
+  "font_class": "folder-add",
+  "unicode": "\uE6A9"
+}, {
+  "font_class": "folder-add-filled",
+  "unicode": "\uE6C8"
+}, {
+  "font_class": "font",
+  "unicode": "\uE6A3"
+}, {
+  "font_class": "forward",
+  "unicode": "\uE6BA"
+}, {
+  "font_class": "gear",
+  "unicode": "\uE664"
+}, {
+  "font_class": "gear-filled",
+  "unicode": "\uE661"
+}, {
+  "font_class": "gift",
+  "unicode": "\uE6A4"
+}, {
+  "font_class": "gift-filled",
+  "unicode": "\uE6C4"
+}, {
+  "font_class": "hand-down",
+  "unicode": "\uE63D"
+}, {
+  "font_class": "hand-down-filled",
+  "unicode": "\uE63C"
+}, {
+  "font_class": "hand-up",
+  "unicode": "\uE63F"
+}, {
+  "font_class": "hand-up-filled",
+  "unicode": "\uE63E"
+}, {
+  "font_class": "headphones",
+  "unicode": "\uE630"
+}, {
+  "font_class": "heart",
+  "unicode": "\uE639"
+}, {
+  "font_class": "heart-filled",
+  "unicode": "\uE641"
+}, {
+  "font_class": "help",
+  "unicode": "\uE679"
+}, {
+  "font_class": "help-filled",
+  "unicode": "\uE674"
+}, {
+  "font_class": "home",
+  "unicode": "\uE662"
+}, {
+  "font_class": "home-filled",
+  "unicode": "\uE663"
+}, {
+  "font_class": "image",
+  "unicode": "\uE670"
+}, {
+  "font_class": "image-filled",
+  "unicode": "\uE678"
+}, {
+  "font_class": "images",
+  "unicode": "\uE650"
+}, {
+  "font_class": "images-filled",
+  "unicode": "\uE64B"
+}, {
+  "font_class": "info",
+  "unicode": "\uE669"
+}, {
+  "font_class": "info-filled",
+  "unicode": "\uE649"
+}, {
+  "font_class": "left",
+  "unicode": "\uE6B7"
+}, {
+  "font_class": "link",
+  "unicode": "\uE6A5"
+}, {
+  "font_class": "list",
+  "unicode": "\uE644"
+}, {
+  "font_class": "location",
+  "unicode": "\uE6AE"
+}, {
+  "font_class": "location-filled",
+  "unicode": "\uE6AF"
+}, {
+  "font_class": "locked",
+  "unicode": "\uE66B"
+}, {
+  "font_class": "locked-filled",
+  "unicode": "\uE668"
+}, {
+  "font_class": "loop",
+  "unicode": "\uE633"
+}, {
+  "font_class": "mail-open",
+  "unicode": "\uE643"
+}, {
+  "font_class": "mail-open-filled",
+  "unicode": "\uE63A"
+}, {
+  "font_class": "map",
+  "unicode": "\uE667"
+}, {
+  "font_class": "map-filled",
+  "unicode": "\uE666"
+}, {
+  "font_class": "map-pin",
+  "unicode": "\uE6AD"
+}, {
+  "font_class": "map-pin-ellipse",
+  "unicode": "\uE6AC"
+}, {
+  "font_class": "medal",
+  "unicode": "\uE6A2"
+}, {
+  "font_class": "medal-filled",
+  "unicode": "\uE6C3"
+}, {
+  "font_class": "mic",
+  "unicode": "\uE671"
+}, {
+  "font_class": "mic-filled",
+  "unicode": "\uE677"
+}, {
+  "font_class": "micoff",
+  "unicode": "\uE67E"
+}, {
+  "font_class": "micoff-filled",
+  "unicode": "\uE6B0"
+}, {
+  "font_class": "minus",
+  "unicode": "\uE66F"
+}, {
+  "font_class": "minus-filled",
+  "unicode": "\uE67D"
+}, {
+  "font_class": "more",
+  "unicode": "\uE64D"
+}, {
+  "font_class": "more-filled",
+  "unicode": "\uE64E"
+}, {
+  "font_class": "navigate",
+  "unicode": "\uE66E"
+}, {
+  "font_class": "navigate-filled",
+  "unicode": "\uE67A"
+}, {
+  "font_class": "notification",
+  "unicode": "\uE6A6"
+}, {
+  "font_class": "notification-filled",
+  "unicode": "\uE6C1"
+}, {
+  "font_class": "paperclip",
+  "unicode": "\uE652"
+}, {
+  "font_class": "paperplane",
+  "unicode": "\uE672"
+}, {
+  "font_class": "paperplane-filled",
+  "unicode": "\uE675"
+}, {
+  "font_class": "person",
+  "unicode": "\uE699"
+}, {
+  "font_class": "person-filled",
+  "unicode": "\uE69D"
+}, {
+  "font_class": "personadd",
+  "unicode": "\uE69F"
+}, {
+  "font_class": "personadd-filled",
+  "unicode": "\uE698"
+}, {
+  "font_class": "personadd-filled-copy",
+  "unicode": "\uE6D1"
+}, {
+  "font_class": "phone",
+  "unicode": "\uE69C"
+}, {
+  "font_class": "phone-filled",
+  "unicode": "\uE69B"
+}, {
+  "font_class": "plus",
+  "unicode": "\uE676"
+}, {
+  "font_class": "plus-filled",
+  "unicode": "\uE6C7"
+}, {
+  "font_class": "plusempty",
+  "unicode": "\uE67B"
+}, {
+  "font_class": "pulldown",
+  "unicode": "\uE632"
+}, {
+  "font_class": "pyq",
+  "unicode": "\uE682"
+}, {
+  "font_class": "qq",
+  "unicode": "\uE680"
+}, {
+  "font_class": "redo",
+  "unicode": "\uE64A"
+}, {
+  "font_class": "redo-filled",
+  "unicode": "\uE655"
+}, {
+  "font_class": "refresh",
+  "unicode": "\uE657"
+}, {
+  "font_class": "refresh-filled",
+  "unicode": "\uE656"
+}, {
+  "font_class": "refreshempty",
+  "unicode": "\uE6BF"
+}, {
+  "font_class": "reload",
+  "unicode": "\uE6B2"
+}, {
+  "font_class": "right",
+  "unicode": "\uE6B5"
+}, {
+  "font_class": "scan",
+  "unicode": "\uE62A"
+}, {
+  "font_class": "search",
+  "unicode": "\uE654"
+}, {
+  "font_class": "settings",
+  "unicode": "\uE653"
+}, {
+  "font_class": "settings-filled",
+  "unicode": "\uE6CE"
+}, {
+  "font_class": "shop",
+  "unicode": "\uE62F"
+}, {
+  "font_class": "shop-filled",
+  "unicode": "\uE6CD"
+}, {
+  "font_class": "smallcircle",
+  "unicode": "\uE67C"
+}, {
+  "font_class": "smallcircle-filled",
+  "unicode": "\uE665"
+}, {
+  "font_class": "sound",
+  "unicode": "\uE684"
+}, {
+  "font_class": "sound-filled",
+  "unicode": "\uE686"
+}, {
+  "font_class": "spinner-cycle",
+  "unicode": "\uE68A"
+}, {
+  "font_class": "staff",
+  "unicode": "\uE6A7"
+}, {
+  "font_class": "staff-filled",
+  "unicode": "\uE6CB"
+}, {
+  "font_class": "star",
+  "unicode": "\uE688"
+}, {
+  "font_class": "star-filled",
+  "unicode": "\uE68F"
+}, {
+  "font_class": "starhalf",
+  "unicode": "\uE683"
+}, {
+  "font_class": "trash",
+  "unicode": "\uE687"
+}, {
+  "font_class": "trash-filled",
+  "unicode": "\uE685"
+}, {
+  "font_class": "tune",
+  "unicode": "\uE6AA"
+}, {
+  "font_class": "tune-filled",
+  "unicode": "\uE6CA"
+}, {
+  "font_class": "undo",
+  "unicode": "\uE64F"
+}, {
+  "font_class": "undo-filled",
+  "unicode": "\uE64C"
+}, {
+  "font_class": "up",
+  "unicode": "\uE6B6"
+}, {
+  "font_class": "top",
+  "unicode": "\uE6B6"
+}, {
+  "font_class": "upload",
+  "unicode": "\uE690"
+}, {
+  "font_class": "upload-filled",
+  "unicode": "\uE68E"
+}, {
+  "font_class": "videocam",
+  "unicode": "\uE68C"
+}, {
+  "font_class": "videocam-filled",
+  "unicode": "\uE689"
+}, {
+  "font_class": "vip",
+  "unicode": "\uE6A8"
+}, {
+  "font_class": "vip-filled",
+  "unicode": "\uE6C6"
+}, {
+  "font_class": "wallet",
+  "unicode": "\uE6B1"
+}, {
+  "font_class": "wallet-filled",
+  "unicode": "\uE6C2"
+}, {
+  "font_class": "weibo",
+  "unicode": "\uE68B"
+}, {
+  "font_class": "weixin",
+  "unicode": "\uE691"
+}];
+
+// export const fontData = JSON.parse<IconsDataItem>(fontDataJson)
+exports.fontData = fontData;
+
+/***/ }),
+/* 87 */,
+/* 88 */,
+/* 89 */,
+/* 90 */,
+/* 91 */,
+/* 92 */,
+/* 93 */,
+/* 94 */
+/*!***************************************!*\
+  !*** D:/项目/music-app/commons/mock.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.userMenu = exports.swiper = exports.sole = exports.recommend = exports.newest = exports.newList = exports.newFilmsList = exports.newDiscList = exports.contentBar = exports.content = exports.audioList = void 0;
+var swiper = {
+  img: ['/static/image/bg_img/swiper_image1.jpg', '/static/image/bg_img/swiper_image2.jpg', '/static/image/bg_img/swiper_image3.jpg']
+};
+exports.swiper = swiper;
+var contentBar = [{
+  name: "歌手",
+  src: "\uE604"
+}, {
+  name: "排行",
+  src: "\uE6C5"
+}, {
+  name: "分类歌单",
+  src: "\uE600"
+}, {
+  name: "电台",
+  src: "\uE781"
+}, {
+  name: "视频",
+  src: "\uE622"
+}];
+exports.contentBar = contentBar;
+var content = {
+  img: "/static/image/bg_img/bg1.jpg",
+  imgTitle: '个性电台',
+  list: [{
+    name: "新歌新碟",
+    disc: "神秘嘉宾先生选择新歌",
+    src: '/static/image/bg_img/bg2.jpg'
+  }, {
+    name: "动画片专辑|热映",
+    disc: "李建老狼联手现场",
+    src: '/static/image/bg_img/bg3.jpg'
+  }]
+};
+exports.content = content;
+var recommend = {
+  title: "为你推荐",
+  list: [{
+    name: "你的独家品味推荐",
+    src: "/static/image/bg_img/bg5.jpg",
+    count: "53133000",
+    updateTime: "刚刚更新"
+  }, {
+    name: "慢跑随身听",
+    src: "/static/image/bg_img/bg7.jpg",
+    count: "210000",
+    updateTime: "刚刚更新"
+  }, {
+    name: "失恋解药",
+    src: "/static/image/bg_img/bg8.jpg",
+    count: "4000",
+    updateTime: "刚刚更新"
+  }, {
+    name: "薛之谦创作歌曲集",
+    src: "/static/image/bg_img/bg9.jpg",
+    count: "9200000",
+    updateTime: "刚刚更新"
+  }, {
+    name: "青春是一场未知的探险",
+    src: "/static/image/bg_img/bg10.jpg",
+    count: "8909",
+    updateTime: "刚刚更新"
+  }, {
+    name: "欧美|渐入佳境的入耳暖心旋律",
+    src: "/static/image/bg_img/bg11.jpg",
+    count: "120000",
+    updateTime: "刚刚更新"
+  }]
+};
+exports.recommend = recommend;
+var newest = {
+  title: "最新专辑",
+  list: [{
+    name: "离开的接口",
+    author: "刘瑞琪",
+    src: "/static/image/bg_img/bg12.jpg"
+  }, {
+    name: "Cerll ls:The Albuild",
+    author: "Made Will Made It",
+    src: "/static/image/bg_img/bg13.jpg"
+  }, {
+    name: "SSS.GRIDMANIDSFEF",
+    author: "OTX",
+    src: "/static/image/bg_img/bg14.jpg"
+  }, {
+    name: "No place",
+    author: "Backstreet",
+    src: "/static/image/bg_img/bg15.jpg"
+  }, {
+    name: "别再闹了",
+    author: "毛不易",
+    src: "/static/image/bg_img/bg16.jpg"
+  }, {
+    name: "即刻电音",
+    author: "即可电音",
+    src: "/static/image/bg_img/bg17.jpg"
+  }]
+};
+exports.newest = newest;
+var sole = {
+  title: "独家内容",
+  list: [{
+    name: "乐见大牌|靖佩瑶清唱《清风是》又勾起广大会议",
+    count: "531330000",
+    src: "/static/image/bg_img/bg22.jpg"
+  }, {
+    name: "精心专用！法兰的歌声让你情绪在温暖的夜色和平",
+    count: "53130000",
+    src: "/static/image/bg_img/bg19.jpg"
+  }, {
+    name: "你妹听过的\"成功学\"说唱：人生赢家的秘诀在于洗澡",
+    count: "31330000",
+    src: "/static/image/bg_img/bg20.jpg"
+  }, {
+    name: "为N对情侣现场恋爱BGM.Kris Wu甘当电灯泡",
+    count: "1338000",
+    src: "/static/image/bg_img/bg21.jpg"
+  }]
+};
+exports.sole = sole;
+var audioList = [{
+  name: '你的微笑',
+  author: 'Shart Foeir',
+  src: 'http://music.163.com/song/media/outer/url?id=2108553289.mp3',
+  img: '/static/image/bg_img/bg21.jpg'
+}, {
+  name: '英雄联盟群雄齐聚',
+  author: '毛不易',
+  src: 'http://cdnringbd.shoujiduoduo.com/ringres/userv1/a48/414/66335414.aac',
+  img: '/static/image/bg_img/bg22.jpg'
+}, {
+  name: 'TryEverything',
+  author: 'Shakira',
+  src: 'http://cdnringbd.shoujiduoduo.com/ringres/userv1/a48/480/66379480.aac',
+  img: '/static/image/bg_img/bg23.jpg'
+}, {
+  name: '我爱过几个人',
+  author: '邓论',
+  src: 'http://cdnringbd.shoujiduoduo.com/ringres/userv1/a48/339/65390339.aac',
+  img: '/static/image/bg_img/bg24.jpg'
+}, {
+  name: '浪子回头',
+  author: '辉气*蛋',
+  src: 'http://cdnringbd.shoujiduoduo.com/ringres/userv1/a48/645/66725645.aac',
+  img: '/static/image/bg_img/bg18.jpg'
+}, {
+  name: '生僻字心动不已',
+  author: '〃°ω°〃',
+  src: 'http://cdnringbd.shoujiduoduo.com/ringres/userv1/a48/359/64750359.aac',
+  img: '/static/image/bg_img/bg20.jpg'
+}];
+exports.audioList = audioList;
+var newList = [{
+  Name: "测试歌曲1",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'XXX',
+  Album: "test",
+  SQ: 0,
+  DJ: 1,
+  HQ: 0,
+  VIP: 1
+}, {
+  Name: "测试歌曲2",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'YYY',
+  Album: "test",
+  SQ: 1,
+  DJ: 1,
+  HQ: 0,
+  VIP: 1
+}, {
+  Name: "测试歌曲3",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'ZZZ',
+  Album: "test",
+  SQ: 0,
+  DJ: 1,
+  HQ: 0,
+  VIP: 0
+}, {
+  Name: "测试歌曲4",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'HHH',
+  Album: "test",
+  SQ: 0,
+  DJ: 0,
+  HQ: 0,
+  VIP: 1
+}, {
+  Name: "测试歌曲5",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'OOO',
+  Album: "test",
+  SQ: 1,
+  DJ: 1,
+  HQ: 0,
+  VIP: 1
+}, {
+  Name: "测试歌曲6",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'LLL',
+  Album: "test",
+  SQ: 0,
+  DJ: 1,
+  HQ: 1,
+  VIP: 0
+}, {
+  Name: "测试歌曲7",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'QQQ',
+  Album: "test",
+  SQ: 0,
+  DJ: 1,
+  HQ: 1,
+  VIP: 0
+}, {
+  Name: "测试歌曲8",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'III',
+  Album: "test",
+  SQ: 0,
+  DJ: 1,
+  HQ: 1,
+  VIP: 0
+}, {
+  Name: "测试歌曲9",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'RRR',
+  Album: "test",
+  SQ: 0,
+  DJ: 1,
+  HQ: 1,
+  VIP: 0
+}, {
+  Name: "测试歌曲10",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'WWW',
+  Album: "test",
+  SQ: 0,
+  DJ: 1,
+  HQ: 1,
+  VIP: 0
+}, {
+  Name: "测试歌曲11",
+  SrcAudio: "http://m10.music.126.net/20190117183019/a55ba6ea85a64f26e106b6115a23e934/ymusic/5605/07fd/b516/a10d9e248c19d9ac2d40d2b0596fc09b.mp3",
+  Author: 'NNN',
+  Album: "test",
+  SQ: 0,
+  DJ: 1,
+  HQ: 1,
+  VIP: 0
+}];
+exports.newList = newList;
+var newDiscList = [{
+  name: "你的独家品味推荐",
+  src: "/static/image/bg_img/bg5.jpg",
+  count: "53133000",
+  updateTime: "刚刚更新"
+}, {
+  name: "慢跑随身听",
+  src: "/static/image/bg_img/bg7.jpg",
+  count: "210000",
+  updateTime: "刚刚更新"
+}, {
+  name: "失恋解药",
+  src: "/static/image/bg_img/bg8.jpg",
+  count: "4000",
+  updateTime: "刚刚更新"
+}, {
+  name: "薛之谦创作歌曲集",
+  src: "/static/image/bg_img/bg9.jpg",
+  count: "9200000",
+  updateTime: "刚刚更新"
+}, {
+  name: "青春是一场未知的探险",
+  src: "/static/image/bg_img/bg10.jpg",
+  count: "8909",
+  updateTime: "刚刚更新"
+}, {
+  name: "欧美|渐入佳境的入耳暖心旋律",
+  src: "/static/image/bg_img/bg11.jpg",
+  count: "120000",
+  updateTime: "刚刚更新"
+}, {
+  name: "你的独家品味推荐",
+  src: "/static/image/bg_img/bg5.jpg",
+  count: "53133000",
+  updateTime: "刚刚更新"
+}, {
+  name: "慢跑随身听",
+  src: "/static/image/bg_img/bg7.jpg",
+  count: "210000",
+  updateTime: "刚刚更新"
+}, {
+  name: "失恋解药",
+  src: "/static/image/bg_img/bg8.jpg",
+  count: "4000",
+  updateTime: "刚刚更新"
+}, {
+  name: "薛之谦创作歌曲集",
+  src: "/static/image/bg_img/bg9.jpg",
+  count: "9200000",
+  updateTime: "刚刚更新"
+}, {
+  name: "青春是一场未知的探险",
+  src: "/static/image/bg_img/bg10.jpg",
+  count: "8909",
+  updateTime: "刚刚更新"
+}, {
+  name: "欧美|渐入佳境的入耳暖心旋律",
+  src: "/static/image/bg_img/bg11.jpg",
+  count: "120000",
+  updateTime: "刚刚更新"
+}];
+exports.newDiscList = newDiscList;
+var newFilmsList = [{
+  name: "离开的接口",
+  author: "刘瑞琪",
+  src: "/static/image/bg_img/bg12.jpg"
+}, {
+  name: "Cerll ls:The Albuild",
+  author: "Made Will Made It",
+  src: "/static/image/bg_img/bg13.jpg"
+}, {
+  name: "SSS.GRIDMANIDSFEF",
+  author: "OTX",
+  src: "/static/image/bg_img/bg14.jpg"
+}, {
+  name: "No place",
+  author: "Backstreet",
+  src: "/static/image/bg_img/bg15.jpg"
+}, {
+  name: "别再闹了",
+  author: "毛不易",
+  src: "/static/image/bg_img/bg16.jpg"
+}, {
+  name: "即刻电音",
+  author: "即可电音",
+  src: "/static/image/bg_img/bg17.jpg"
+}, {
+  name: "失恋解药",
+  src: "/static/image/bg_img/bg8.jpg",
+  count: "4000",
+  updateTime: "刚刚更新"
+}, {
+  name: "薛之谦创作歌曲集",
+  src: "/static/image/bg_img/bg9.jpg",
+  count: "9200000",
+  updateTime: "刚刚更新"
+}, {
+  name: "青春是一场未知的探险",
+  src: "/static/image/bg_img/bg10.jpg",
+  count: "8909",
+  updateTime: "刚刚更新"
+}, {
+  name: "欧美|渐入佳境的入耳暖心旋律",
+  src: "/static/image/bg_img/bg11.jpg",
+  count: "120000",
+  updateTime: "刚刚更新"
+}];
+
+//用户清单
+exports.newFilmsList = newFilmsList;
+var userMenu = [{
+  color: '#00c273',
+  size: '22',
+  type: 'heart-filled',
+  name: '歌曲收藏'
+}, {
+  color: '#00c273',
+  size: '22',
+  type: 'compose',
+  name: '密码修改'
+}, {
+  color: '#00c273',
+  size: '22',
+  type: 'auth-filled',
+  name: '退出登录'
+}];
+exports.userMenu = userMenu;
+
 /***/ })
 ]]);
 //# sourceMappingURL=../../.sourcemap/mp-weixin/common/vendor.js.map

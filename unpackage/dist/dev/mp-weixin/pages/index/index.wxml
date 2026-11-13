@@ -1,1 +1,1 @@
-<view class="contanier"><tabs vue-id="8dd740cc-1" bind:__l="__l" vue-slots="{{['my','music','discover']}}"><text slot="my">这是我的界面</text><text slot="music">这是音乐馆界面</text><text slot="discover">这是发现界面</text></tabs></view>
+<view class="container"><tabs vue-id="8dd740cc-1" bind:__l="__l" vue-slots="{{['my','music','discover']}}"><text slot="my"> 这是我的页面 </text><music-tab-page vue-id="{{('8dd740cc-2')+','+('8dd740cc-1')}}" slot="music" bind:__l="__l"></music-tab-page><text slot="discover"> 这是发现页面 </text></tabs></view>

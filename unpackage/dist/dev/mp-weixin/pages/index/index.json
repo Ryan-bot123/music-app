@@ -1,4 +1,7 @@
 {
   "navigationBarTitleText": "音乐平台",
-  "usingComponents": {}
+  "usingComponents": {
+    "tabs": "/components/Tabs",
+    "music-tab-page": "/components/MusicTabPage"
+  }
 }

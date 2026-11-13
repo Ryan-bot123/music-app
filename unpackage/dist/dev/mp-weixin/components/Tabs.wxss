@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.top.data-v-4f37e659 {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 32rpx;
+}
+.top .bar.data-v-4f37e659 {
+  display: flex;
+  justify-content: center;
+  line-height: 100rpx;
+  background-color: #00c273;
+  color: #fff;
+  height: 10vh;
+}
+.top .bar .tab-item.data-v-4f37e659 {
+  margin: 0 10rpx;
+}
+.top .bar .active.data-v-4f37e659 {
+  color: black;
+  font-size: 45rpx;
+  font-weight: bold;
+}

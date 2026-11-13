@@ -1,12 +1,13 @@
 <template>
 	<view class="top">
 		<view class="bar">
-			<view class="tab-item" v-for="item in tabs" :key="item.name" :class="{ active: item.name === currentTab }"
+			<view class="tab-item" v-for="item in tabs" :class="{active: item.name===currentTab}"
 				@click="switchTab(item.name)">
-				{{ item.title }}
+				{{item.title}}
 			</view>
 		</view>
-		<view v-if="currentTab==='my'">
+
+		<!-- <view v-if="currentTab==='my'">
 			<text>这是我的页面</text>
 		</view>
 		<view v-if="currentTab==='music'">
@@ -14,10 +15,10 @@
 		</view>
 		<view v-if="currentTab==='discover'">
 			<text>这是发现页面</text>
-		</view>
+		</view> -->
+		<slot :name="currentTab"></slot>
 	</view>
 </template>
-
 <script>
 	export default {
 		name: "Tabs",
@@ -29,7 +30,6 @@
 					},
 					{
 						name: 'music',
-						音乐馆组件
 						title: '音乐馆'
 					},
 					{
@@ -38,7 +38,7 @@
 					}
 				],
 				//当前选中的Tab
-				currentTab: 'music'
+				currentTab: 'my'
 			};
 		},
 		methods: {
@@ -46,13 +46,14 @@
 				this.currentTab = tabName;
 			}
 		}
+
 	}
 </script>
 
 <style lang="scss" scoped>
 	.top {
 		width: 100%;
-		box-sizing: border-box; //确保宽度是100%    
+		box-sizing: border-box; //确保宽度是100%	
 		font-size: 32rpx;
 
 		.bar {
