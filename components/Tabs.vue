@@ -1,22 +1,22 @@
 <template>
 	<view class="top">
 		<view class="bar">
-			<view class="tab-item" v-for="item in tabs" :class="{active: item.name===currentTab}"
+			<view class="tab-item" v-for="(item, index) in tabs" :key="index" :class="{active: item.name===currentTab}"
 				@click="switchTab(item.name)">
 				{{item.title}}
 			</view>
 		</view>
 
-		<!-- <view v-if="currentTab==='my'">
-			<text>这是我的页面</text>
+		<!-- 三个具名插槽，小程序端按当前 tab 条件渲染 -->
+		<view v-if="currentTab==='my'">
+			<slot name="my"></slot>
 		</view>
 		<view v-if="currentTab==='music'">
-			<text>这是音乐馆页面</text>
+			<slot name="music"></slot>
 		</view>
 		<view v-if="currentTab==='discover'">
-			<text>这是发现页面</text>
-		</view> -->
-		<slot :name="currentTab"></slot>
+			<slot name="discover"></slot>
+		</view>
 	</view>
 </template>
 <script>
