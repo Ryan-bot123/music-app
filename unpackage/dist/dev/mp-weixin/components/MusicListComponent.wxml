@@ -1,0 +1,1 @@
+<view class="grid-list"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="grid-item" style="{{'width:'+(100/column+'%')+';'}}"><view class="grid-item-box"><image src="{{item.src}}" mode="aspectFill"></image><text class="text">{{item.name}}</text></view></view></block></view>
