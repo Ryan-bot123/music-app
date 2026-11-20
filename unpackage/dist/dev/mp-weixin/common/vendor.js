@@ -19398,6 +19398,12 @@ var _default = {
     "style": {
       "navigationBarTitleText": "音乐平台"
     }
+  }, {
+    "path": "pages/play/play",
+    "style": {
+      "navigationBarTitleText": "音乐播放",
+      "enablePullDownRefresh": false
+    }
   }],
   "globalStyle": {
     "navigationBarTextStyle": "black",
